@@ -10,6 +10,7 @@ Console.WriteLine("How would you describe it? Big? Azure? Tattered");
 String objectDescriptor;
 string c;
 int d;
+
 //descriptor prior to the name of the object
 objectDescriptor = Console.ReadLine();
 c = "of DOOM 3000!!";
@@ -23,4 +24,5 @@ Console.WriteLine("The " + objectDescriptor + " " + objectName + c);
  * 1. Change variable names to *be* self-documenting.
  * 2. change c and d into one variable, it's unnecessary for them to be split
  * Just like that, the code is already easier to read. There are more advanced solutions, I'm sure, but I don't know how to do string formatting in this language.
+ * Honestly, properly naming these variables, you hardly need comments to make this code readable.
  */
